@@ -84,12 +84,15 @@
 
 @media only screen and (max-width: 639px) {
   nav {
-    position: relative;
+    padding: 0 0;
   }
   nav ul {
     width: 100%;
     background: var(--highlight);
     max-height: 0px;
+  }
+  nav ul.active {
+    display: block;
   }
   nav ul li {
     width: 100%;
