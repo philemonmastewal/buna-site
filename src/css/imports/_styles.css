@@ -12,4 +12,7 @@
   & ul a:hover, & ul a:focus {
     box-shadow: inset 0 -4px 0 var(--primary);
   }
+  /* & ul a.active{         fix this later to have a nav item stay underlined
+    box-shadow: 0 -4px 0 var(--primary);
+  } */ 
 }

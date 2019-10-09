@@ -1,19 +1,59 @@
-<nav class="overflow-x-scroll overflow-x-visible-ns flex justify-between items-center center bg-white divider-grey relative">
+<body>
+  <nav
+    class="navbar overflow-x-scroll overflow-x-visible-ns flex justify-between items-center center bg-white divider-grey relative pr2"
+  >
+    <!-- Logo -->
+    <a href="/" class="pa3 db mr4 h-100 w3 flex-none">
+      <img src="/img/buna-logo.png" alt="buna logo" class="br0 db mb0 w-100" />
+    </a>
 
-	<!-- Logo -->
-	<a href="/" class="pa3 db mr4 h-100 w3 flex-none">
-		<img src="/img/logo.svg" alt="Kaldi logo" class="br0 db mb0 w-100"/>
-	</a>
+    <!-- Primary Nav -->
 
-	<!-- Primary Nav -->
-	<ul class="flex b grey-3">
-		<li><a href="/products" class="pa3 no-underline db">Products</a></li>
+    <ul class="flex b grey-3">
+      <li><a href="/products" class="pa3 no-underline db">Products</a></li>
 
-		<li><a href="/values" class="pa3 no-underline db">Values</a></li>
+      <li><a href="/values" class="pa3 no-underline db">Values</a></li>
 
-		<li><a href="/post" class="pa3 no-underline db">Blog</a></li>
+      <li><a href="/post" class="pa3 no-underline db">Blog</a></li>
 
-		<li><a href="/contact" class="pa3 no-underline db">Contact</a></li>
-	</ul>
+      <li><a href="/contact" class="pa3 no-underline db">Contact</a></li>
 
-</nav>
+      <li class="">
+        <a href="#" class="pa3 no-underline db obtn">Order</a>
+      </li>
+      <div>
+        <a onclick="openDropdown()" class="menu-btn" id="menu-toggle">
+          &#9776;
+        </a>
+      </div>
+    </ul>
+
+    <div class="dropdown z-3">
+      <a class="btn-close" onclick="closeDropdown()">&times;</a>
+      <a href="/products">Products</a>
+      <a href="/values">Values</a>
+      <a href="/post">Blog</a>
+      <a href="/contact">Contact</a>
+      <a href="#" class="order">Order</a>
+    </div>
+  </nav>
+  <!-- <div id="main"><h1>responsive side menu</h1></div> -->
+  <!-- jQuery -->
+  <!-- <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"
+  ></script> -->
+
+  <!-- Custom Script -->
+  <!-- <script src="../../../src/js/scripts.js"></script> -->
+
+  <script>
+    function openDropdown() {
+      document.getElementsByClassName("dropdown")[0].style.width = "100%";
+    }
+    function closeDropdown() {
+      document.getElementsByClassName("dropdown")[0].style.width = "0px";
+    }
+  </script>
+</body>

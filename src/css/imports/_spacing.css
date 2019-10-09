@@ -322,6 +322,9 @@
     padding-left: var(--spacing-small);
     padding-right: var(--spacing-small);
   }
+  .ph2-ns img{
+    fill: var(--primary)
+  }
   .ph3-ns {
     padding-left: var(--spacing-medium);
     padding-right: var(--spacing-medium);

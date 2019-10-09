@@ -1,0 +1,36 @@
+.tsr {
+  text-shadow: 0px 
+  0px 10px var(--primary);
+}
+.tsh {
+  text-shadow: 0px 
+  0px 10px var(--highlight);
+}
+.tsb {
+  text-shadow: 0px 
+  0px 10px var(--black);
+}
+.tsb1 {
+  text-shadow: 0px 
+  0px 20px var(--black);
+}
+.tsb2 {
+  text-shadow: 0px 
+  0px 30px var(--black);
+}
+.tsb3 {
+  text-shadow: 0px 
+  0px 50px var(--black);
+}
+.tsb4 {
+  text-shadow: 0px 
+  0px 70px var(--black);
+}
+.tsb5 {
+  text-shadow: 0px 
+  0px 100px var(--black);
+}
+.tsw {
+  text-shadow: 0px 
+  0px 10px var(--white);
+}
