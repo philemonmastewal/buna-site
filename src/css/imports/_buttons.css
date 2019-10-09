@@ -103,19 +103,19 @@
     display: block;
     cursor: pointer;
   }
-  nav ul #menu-toggle {
+  nav #menu-toggle {
     display: block;
     position: absolute;
     right: 20px;
-    top: 10px;
-    font-size: 1.9em;
+    top: 5px;
+    font-size: 2.5em;
     box-shadow: none;
   }
-  nav ul menu-btn {
+  nav menu-btn {
     position: relative;
   }
 
-  nav ul .menu-btn:focus {
+  nav .menu-btn:focus {
     outline: none !important;
   }
   .showing {
@@ -162,8 +162,8 @@
 }
 .dropdown .btn-close {
   position: relative;
-  bottom: 24px;
-  font-size: 60px;
+  bottom: 40px;
+  font-size: 80px;
   margin-left: 50px;
   padding: 0px;
   text-align: right;
