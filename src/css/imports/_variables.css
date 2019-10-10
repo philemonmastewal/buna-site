@@ -14,7 +14,7 @@
   /* --font-family: Nunito Sans, -apple-system, BlinkMacSystemFont, "avenir next",
     avenir, helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial,
 				sans-serif; */
-  --font-family: 'Ubuntu', sans-serif;
+  --font-family: "Ubuntu", sans-serif;
   --line-height: 1.5;
 
   --font-size: 18px;
@@ -36,6 +36,6 @@
 
   /* Miscelaneous */
   --border-radius: 0.25rem;
-		--hover-transition: all 150ms ease;
-		--hover-obtn-transition:;
+  --hover-transition: all 150ms ease;
+  --hover-obtn-transition: ;
 }

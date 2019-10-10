@@ -17,8 +17,8 @@
 
 .obtn {
   display: inline-block;
-  padding: 6px 10px;
-  margin-top: 0.45em;
+  padding: 4px 10px;
+  margin-top: 0.5em;
   margin-right: 1em;
   margin-left: 0.5em;
   font-size: 1.25rem;
@@ -45,7 +45,7 @@
   background: var(--primary);
   color: var(--white);
   box-shadow: 0 5px 15px rgba(227, 48, 35, 0.5) !important;
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 
 .label {
@@ -67,7 +67,7 @@
 .menu-btn {
   display: none;
   font-size: var(--spacing-medium);
-  line-height: 1.25;
+  line-height: 0.95;
   background-color: var(--white);
   border-radius: var(--border-radius);
   text-decoration: none;
@@ -183,10 +183,10 @@
   bottom: 55px;
   font-size: 100px;
   margin-right: 26px;
-  padding: 0px;
+  padding: 10px;
   text-align: right;
   outline: none;
-  margin-bottom: 0px;
+  margin-bottom: -80px;
 }
 .dropdown .order {
   outline: 7px solid var(--black);
