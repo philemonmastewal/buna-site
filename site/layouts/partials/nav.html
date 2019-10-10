@@ -3,7 +3,7 @@
     class="navbar overflow-x-scroll overflow-x-visible-ns flex justify-between items-center center bg-white divider-grey relative pr2"
   >
     <!-- Logo -->
-    <a href="/" class="pa3 db mr4 h-100 w3 flex-none">
+    <a href="/" class="pa3 pb2 pt2 db mr4 h-100 w3ish flex-none">
       <img src="/img/buna-logo.png" alt="buna logo" class="br0 db mb0 w-100" />
     </a>
 
@@ -40,14 +40,17 @@
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
 
   <!-- Custom Script -->
-  <!-- <script src="../../../src/js/scripts.js"></script> -->
+  <!-- <script src="../../../src/js/scripts.js"></script>  // <<<< disregard*...used the script below instead -->
 
   <script>
     function openDropdown() {
       document.getElementsByClassName("dropdown")[0].style.width = "100%";
+      // document.getElementsByClassName("navbar")[0].style.overflowY = "hidden";
+      // document.getElementsByClassName("dropdown")[0].style.overflowY = "hidden";
     }
     function closeDropdown() {
       document.getElementsByClassName("dropdown")[0].style.width = "0px";
+      // document.getElementsByClassName("dropdown")[0].style.overflowY = "";
     }
   </script>
 </body>

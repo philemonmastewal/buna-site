@@ -9,16 +9,19 @@
   font-weight: var(--bold-font-weight);
   color: var(--primary);
   text-align: center;
+  -webkit-box-shadow: inset 0 0 0 2px var(--primary);
   box-shadow: inset 0 0 0 2px var(--primary);
+  -webkit-transition: var(--hover-transition);
   transition: var(--hover-transition);
 }
 
 .obtn {
   display: inline-block;
-  padding: 8px 14px 8px;
-  margin-top: 0.75em;
+  padding: 6px 10px;
+  margin-top: 0.45em;
   margin-right: 1em;
-  font-size: var(--spacing-medium);
+  margin-left: 0.5em;
+  font-size: 1.25rem;
   line-height: 1.25;
   background-color: var(--white);
   border-radius: var(--border-radius);
@@ -41,6 +44,8 @@
   outline: var(--primary) !important; */
   background: var(--primary);
   color: var(--white);
+  box-shadow: 0 5px 15px rgba(227, 48, 35, 0.5) !important;
+  transform: scale(1.5);
 }
 
 .label {
@@ -72,10 +77,12 @@
   padding-bottom: 3px;
   padding-right: 9px;
   padding-left: 9px;
+  -webkit-transition: var(--hover-transition);
   transition: var(--hover-transition);
 }
 
 #main {
+  -webkit-transition: margin-left 0.5s;
   transition: margin-left 0.5s;
   padding: 20px;
   overflow: hidden;
@@ -99,6 +106,7 @@
     display: none;
   }
   nav ul li a {
+    -webkit-box-shadow: none;
     box-shadow: none;
   }
 
@@ -112,6 +120,7 @@
     right: 20px;
     top: 5px;
     font-size: 2.5em;
+    -webkit-box-shadow: none;
     box-shadow: none;
   }
   nav menu-btn {
@@ -121,8 +130,11 @@
   nav .menu-btn:focus {
     outline: none !important;
   }
-  .showing {
-    max-height: 100em;
+  nav a img {
+    outline: none !important;
+  }
+  nav a {
+    outline: none !important;
   }
   #main {
     display: hidden !important;
@@ -145,6 +157,7 @@
   opacity: 1;
   overflow-x: hidden;
   padding-top: 8px;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
   z-index: 999;
   min-height: 100vh;
@@ -155,6 +168,7 @@
   font-size: 42px;
   color: #111;
   display: block;
+  -webkit-transition: 0.2s;
   transition: 0.2s;
   text-align: center;
   position: relative;
@@ -162,12 +176,13 @@
   font-weight: bolder;
   margin: 30px;
   margin-top: 0px;
+  /* top: 0px; */
 }
 .dropdown .btn-close {
   position: relative;
-  bottom: 40px;
-  font-size: 80px;
-  margin-left: 50px;
+  bottom: 55px;
+  font-size: 100px;
+  margin-right: 26px;
   padding: 0px;
   text-align: right;
   outline: none;
