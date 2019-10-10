@@ -67,7 +67,7 @@
 .menu-btn {
   display: none;
   font-size: var(--spacing-medium);
-  line-height: 0.95;
+  line-height: 1.25;
   background-color: var(--white);
   border-radius: var(--border-radius);
   text-decoration: none;
@@ -91,7 +91,7 @@
 
 @media only screen and (max-width: 639px) {
   nav {
-    padding: 0 0;
+    padding: 0.3125rem;
   }
   nav ul {
     width: 100%;
@@ -186,7 +186,8 @@
   padding: 10px;
   text-align: right;
   outline: none;
-  margin-bottom: -80px;
+  margin-bottom: -100px;
+  padding-right: 0px;
 }
 .dropdown .order {
   outline: 7px solid var(--black);
