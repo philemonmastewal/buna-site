@@ -178,12 +178,17 @@
   margin-top: 0px;
   /* top: 0px; */
 }
+.dropdown-banner {
+  display: flex;
+  justify-content: space-between;
+}
+
 .dropdown .btn-close {
   position: relative;
   bottom: 55px;
   font-size: 70px;
   margin-right: 26px;
-  padding: 40px;
+  padding: 38px;
   text-align: right;
   outline: none;
   margin-bottom: -100px;
