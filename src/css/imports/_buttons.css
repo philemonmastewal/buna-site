@@ -67,7 +67,7 @@
 .menu-btn {
   display: none;
   font-size: var(--spacing-medium);
-  line-height: 1.25;
+  line-height: 1.2;
   background-color: var(--white);
   border-radius: var(--border-radius);
   text-decoration: none;
@@ -181,12 +181,13 @@
 .dropdown-banner {
   display: flex;
   justify-content: space-between;
+  max-height: 70px;
 }
 
 .dropdown .btn-close {
   position: relative;
   bottom: 55px;
-  font-size: 70px;
+  font-size: 75px;
   margin-right: 26px;
   padding: 38px;
   text-align: right;
