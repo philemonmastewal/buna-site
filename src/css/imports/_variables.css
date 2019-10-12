@@ -37,5 +37,5 @@
   /* Miscelaneous */
   --border-radius: 0.25rem;
   --hover-transition: all 150ms ease;
-  --hover-obtn-transition: ;
+  /* --hover-transition: transform.scale(1.2) !important;   <<< ....not working fix later */
 }
